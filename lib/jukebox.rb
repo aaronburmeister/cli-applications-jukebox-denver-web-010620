@@ -66,4 +66,4 @@ def run(playlist)
   exit_jukebox
 end
 
-songs.include?("haha")
+puts songs.include?("haha")
