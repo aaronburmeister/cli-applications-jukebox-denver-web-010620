@@ -35,6 +35,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song = gets.strip
+  binding.pry
   if songs.include?(song)
     puts "Playing #{song}"
   elsif songs[song.to_i + 1]
@@ -66,4 +67,4 @@ def run(playlist)
   exit_jukebox
 end
 
-puts songs.include?(haha)
+play(songs)
