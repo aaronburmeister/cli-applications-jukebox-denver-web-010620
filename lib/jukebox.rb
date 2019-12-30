@@ -65,5 +65,3 @@ def run(playlist)
   end
   exit_jukebox
 end
-
-run(songs)
