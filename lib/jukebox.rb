@@ -54,10 +54,13 @@ def run(playlist)
   until command == "exit" do
     if command == "list"
       list
+      run(playlist)
     elsif command == "help"
       help
+      run(playlist)
     elsif command == "play"
       play(playlist)
+      run(playlist)
     end
   end
   exit_jukebox
