@@ -53,7 +53,7 @@ def run(playlist)
   command = gets.strip
   until command == "exit" do
     if command == "list"
-      list
+      list(playlist)
       run(playlist)
     elsif command == "help"
       help
