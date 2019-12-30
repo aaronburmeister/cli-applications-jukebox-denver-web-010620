@@ -55,4 +55,5 @@ def run(playlist)
     end
   end
   exit_jukebox
+  exit
 end
